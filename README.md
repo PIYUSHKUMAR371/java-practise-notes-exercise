@@ -88,7 +88,7 @@ Contributions are welcome! You can help by:
 
 📤 Creating a Pull Request
 
-👤 About Me
+👤  About Me
 
 Piyush Kumar
 📍 CSE – Data Science Student
