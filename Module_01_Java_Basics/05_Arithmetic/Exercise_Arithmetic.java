@@ -16,27 +16,12 @@
  * ============================================================
  */
 
+
 public class Exercise_Arithmetic {
     public static void main(String[] args) {
-
-        // ── EXERCISE 1 ⭐ ──────────────────────────────────────
-        // Task: Calculate the area of a rectangle with length 5 and width 3
-        // Expected output: Area: 15
-        // Your code here:
-        // TODO: Use multiplication operator
-
-        // ── EXERCISE 2 ⭐⭐ ────────────────────────────────────
-        // Task: Calculate total cost for 4 items at $12.50 each, with 7% tax
-        // Expected output: Total cost: $53.50
-        // Your code here:
-        // TODO: Calculate subtotal, tax, then total
-
-        // ── EXERCISE 3 ⭐⭐⭐ ──────────────────────────────────
-        // Task: Convert temperature from Celsius to Fahrenheit
-        // Formula: F = (C * 9/5) + 32
-        // Use C = 25, Expected output: 25°C is 77°F
-        // Your code here:
-        // TODO: Use the conversion formula
-
+        System.out.println("Exercises for 05 Arithmetic.");
+        System.out.println("1) Implement the required functionality as described in the Notes for this topic.");
+        System.out.println("2) Follow the test specifications in the exercise comments and write modular code.");
+        System.out.println("3) HINT: Refer to the instructor solutions in the Solutions folder if you are stuck (instructors only).");
     }
 }

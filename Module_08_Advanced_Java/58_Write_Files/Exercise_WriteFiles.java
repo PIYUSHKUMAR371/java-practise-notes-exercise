@@ -16,35 +16,12 @@
  * ============================================================
  */
 
+
 public class Exercise_WriteFiles {
     public static void main(String[] args) {
-        
-        // ── EXERCISE 1 ⭐ ──────────────────────────────────────
-        // Task: Create a basic example using WriteFiles
-        // Expected: Some meaningful output
-        // Hint: Look at the Notes file to see the pattern
-        
-        System.out.println("Exercise 1: " + "WriteFiles Example");
-        // Write your code here:
-        
-        
-        // ── EXERCISE 2 ⭐⭐ ────────────────────────────────────
-        // Task: Implement something slightly more complex
-        // Expected: Show that you understand the concept
-        // Hint: Combine what you learned with previous topics
-        
-        System.out.println("\nExercise 2: Intermediate Challenge");
-        // Write your code here:
-        
-        
-        // ── EXERCISE 3 ⭐⭐⭐ ──────────────────────────────────
-        // Task: Create your own implementation
-        // Expected: Something original using WriteFiles
-        // Hint: Think about how this could be used in a real app
-        
-        System.out.println("\nExercise 3: Advanced Challenge");
-        // Write your code here:
-        
-        System.out.println("\n✓ All exercises completed!");
+        System.out.println("Exercises for 58 Write Files.");
+        System.out.println("1) Implement the required functionality as described in the Notes for this topic.");
+        System.out.println("2) Follow the test specifications in the exercise comments and write modular code.");
+        System.out.println("3) HINT: Refer to the instructor solutions in the Solutions folder if you are stuck (instructors only).");
     }
 }

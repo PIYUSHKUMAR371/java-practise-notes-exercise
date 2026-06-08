@@ -23,35 +23,26 @@
  */
 
 public class Notes_OverloadedConstructors {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of OverloadedConstructors
-        
-        System.out.println("Learning: OverloadedConstructors");
-        System.out.println("Topic #41 in Module 7");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use OverloadedConstructors");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("OverloadedConstructors is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of OverloadedConstructors");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_OverloadedConstructors.java!");
+        Book book1 = new Book("Java Basics");
+        Book book2 = new Book("Advanced Java", 450);
+
+        System.out.println(book1.title + " has " + book1.pages + " pages.");
+        System.out.println(book2.title + " has " + book2.pages + " pages.");
+    }
+
+    static class Book {
+        String title;
+        int pages;
+
+        Book(String title) {
+            this.title = title;
+            this.pages = 100;
+        }
+
+        Book(String title, int pages) {
+            this.title = title;
+            this.pages = pages;
+        }
     }
 }

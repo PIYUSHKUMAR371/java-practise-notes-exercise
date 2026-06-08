@@ -16,26 +16,12 @@
  * ============================================================
  */
 
+
 public class Exercise_IfStatements {
     public static void main(String[] args) {
-
-        // ── EXERCISE 1 ⭐ ──────────────────────────────────────
-        // Task: Check if a number is positive, negative, or zero
-        // Expected output: The number 5 is positive
-        // Your code here:
-        // TODO: Use if-else to check the number's sign
-
-        // ── EXERCISE 2 ⭐⭐ ────────────────────────────────────
-        // Task: Determine if someone can vote based on age
-        // Expected output: You can vote! (if age >= 18)
-        // Your code here:
-        // TODO: Check age against voting age
-
-        // ── EXERCISE 3 ⭐⭐⭐ ──────────────────────────────────
-        // Task: Grade calculator with letter grades
-        // Expected output: Your grade is B (for score 85)
-        // Your code here:
-        // TODO: Use if-else if chain for grade ranges
-
+        System.out.println("Exercises for 07 If Statements.");
+        System.out.println("1) Implement the required functionality as described in the Notes for this topic.");
+        System.out.println("2) Follow the test specifications in the exercise comments and write modular code.");
+        System.out.println("3) HINT: Refer to the instructor solutions in the Solutions folder if you are stuck (instructors only).");
     }
 }

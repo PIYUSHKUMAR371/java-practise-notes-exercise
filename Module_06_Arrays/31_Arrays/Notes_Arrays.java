@@ -23,35 +23,12 @@
  */
 
 public class Notes_Arrays {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of Arrays
-        
-        System.out.println("Learning: Arrays");
-        System.out.println("Topic #31 in Module 6");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use Arrays");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("Arrays is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of Arrays");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_Arrays.java!");
+        int[] numbers = {5, 10, 15, 20};
+
+        System.out.println("Array length: " + numbers.length);
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("numbers[" + i + "] = " + numbers[i]);
+        }
     }
 }

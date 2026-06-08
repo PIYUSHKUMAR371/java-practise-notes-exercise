@@ -16,29 +16,12 @@
  * ============================================================
  */
 
+
 public class Exercise_Introduction {
     public static void main(String[] args) {
-
-        // ── EXERCISE 1 ⭐ ──────────────────────────────────────
-        // Task: Print "I am learning Java!" to the console
-        // Expected output: I am learning Java!
-        // Your code here:
-        // TODO: Use System.out.println() like in the notes
-
-        // ── EXERCISE 2 ⭐⭐ ────────────────────────────────────
-        // Task: Print your name and favorite programming language
-        // Expected output: My name is [Your Name] and I love Java!
-        // Your code here:
-        // TODO: Create a String variable for your name, then print both
-
-        // ── EXERCISE 3 ⭐⭐⭐ ──────────────────────────────────
-        // Task: Create a simple welcome message with multiple lines
-        // Expected output:
-        // Welcome to Java programming!
-        // This is exercise 3
-        // You are doing great!
-        // Your code here:
-        // TODO: Use multiple System.out.println() statements
-
+        System.out.println("Exercises for 01 Introduction.");
+        System.out.println("1) Implement the required functionality as described in the Notes for this topic.");
+        System.out.println("2) Follow the test specifications in the exercise comments and write modular code.");
+        System.out.println("3) HINT: Refer to the instructor solutions in the Solutions folder if you are stuck (instructors only).");
     }
 }

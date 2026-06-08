@@ -22,36 +22,20 @@
  * ============================================================
  */
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Notes_WriteFiles {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of WriteFiles
-        
-        System.out.println("Learning: WriteFiles");
-        System.out.println("Topic #58 in Module 8");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use WriteFiles");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("WriteFiles is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of WriteFiles");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_WriteFiles.java!");
+        String filename = "notes_example.txt";
+        try (FileWriter writer = new FileWriter(filename)) {
+            writer.write("Java notes file example.
+");
+            writer.write("Write files using FileWriter and try-with-resources.
+");
+            System.out.println("File written: " + filename);
+        } catch (IOException e) {
+            System.out.println("Error writing file: " + e.getMessage());
+        }
     }
 }

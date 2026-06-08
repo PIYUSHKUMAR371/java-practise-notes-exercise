@@ -23,35 +23,17 @@
  */
 
 public class Notes_Methods {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of Methods
-        
-        System.out.println("Learning: Methods");
-        System.out.println("Topic #26 in Module 5");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use Methods");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("Methods is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of Methods");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_Methods.java!");
+        greet("Student");
+        int sum = add(7, 8);
+        System.out.println("7 + 8 = " + sum);
+    }
+
+    static void greet(String name) {
+        System.out.println("Hello, " + name + "!");
+    }
+
+    static int add(int a, int b) {
+        return a + b;
     }
 }

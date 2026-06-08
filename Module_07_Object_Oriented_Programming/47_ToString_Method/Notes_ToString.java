@@ -23,35 +23,23 @@
  */
 
 public class Notes_ToString {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of ToString
-        
-        System.out.println("Learning: ToString");
-        System.out.println("Topic #47 in Module 7");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use ToString");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("ToString is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of ToString");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_ToString.java!");
+        Product product = new Product("Headphones", 79.99);
+        System.out.println(product);
+    }
+
+    static class Product {
+        String name;
+        double price;
+
+        Product(String name, double price) {
+            this.name = name;
+            this.price = price;
+        }
+
+        @Override
+        public String toString() {
+            return "Product{name='" + name + "', price=" + price + "}";
+        }
     }
 }

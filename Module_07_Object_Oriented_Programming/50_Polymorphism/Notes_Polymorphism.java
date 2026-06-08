@@ -23,35 +23,21 @@
  */
 
 public class Notes_Polymorphism {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of Polymorphism
-        
-        System.out.println("Learning: Polymorphism");
-        System.out.println("Topic #50 in Module 7");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use Polymorphism");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("Polymorphism is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of Polymorphism");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_Polymorphism.java!");
+        Animal animal = new Dog();
+        animal.makeSound();
+    }
+
+    static class Animal {
+        void makeSound() {
+            System.out.println("Animal sound");
+        }
+    }
+
+    static class Dog extends Animal {
+        @Override
+        void makeSound() {
+            System.out.println("Dog barks.");
+        }
     }
 }

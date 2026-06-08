@@ -24,82 +24,27 @@
  * ============================================================
  */
 
-// ── SECTION 1: PARENT CLASS ────────────────────────────────
-// This is the base class that will be inherited from
-
-class Animal { // Parent class
-    String name; // Name of the animal
-
-    void eat() { // Method that all animals can do
-        System.out.println(name + " is eating");
-    }
-
-    void sleep() { // Method that all animals can do
-        System.out.println(name + " is sleeping");
-    }
-}
-
-// ── SECTION 2: CHILD CLASS ─────────────────────────────────
-// This class inherits from Animal using 'extends'
-
-class Dog extends Animal { // Dog inherits from Animal
-    int lives = 1; // Dogs have 1 life (unlike cats)
-
-    void bark() { // Dog-specific method
-        System.out.println(name + " says woof!");
-    }
-}
-
-// ── SECTION 3: ANOTHER CHILD CLASS ─────────────────────────
-class Cat extends Animal { // Cat also inherits from Animal
-    int lives = 9; // Cats have 9 lives
-
-    void meow() { // Cat-specific method
-        System.out.println(name + " says meow!");
-    }
-}
-
-// ── SECTION 4: USING INHERITED CLASSES ────────────────────
 public class Notes_Inheritance {
     public static void main(String[] args) {
+        Dog dog = new Dog("Buddy");
+        dog.makeSound();
+    }
 
-        // Create Dog object - inherits eat() and sleep() from Animal
-        Dog myDog = new Dog();
-        myDog.name = "Buddy"; // Set inherited property
+    static class Animal {
+        String name;
 
-        System.out.println("Dog:");
-        myDog.eat();   // Inherited method
-        myDog.sleep(); // Inherited method
-        myDog.bark();  // Dog-specific method
+        Animal(String name) {
+            this.name = name;
+        }
 
-        // Create Cat object - also inherits from Animal
-        Cat myCat = new Cat();
-        myCat.name = "Whiskers"; // Set inherited property
+        void makeSound() {
+            System.out.println(name + " makes a sound.");
+        }
+    }
 
-        System.out.println("\nCat:");
-        myCat.eat();   // Inherited method
-        myCat.sleep(); // Inherited method
-        myCat.meow();  // Cat-specific method
-
-        // ── SECTION 5: POLYMORPHISM WITH INHERITANCE ────────
-        // You can treat child objects as parent type
-
-        Animal animal1 = new Dog();  // Dog is an Animal
-        Animal animal2 = new Cat();  // Cat is an Animal
-
-        // But you can only call parent methods
-        animal1.eat();  // Works - inherited from Animal
-        animal2.sleep(); // Works - inherited from Animal
-        // animal1.bark(); // ERROR - bark() not in Animal class
+    static class Dog extends Animal {
+        Dog(String name) {
+            super(name);
+        }
     }
 }
-
-// ── KEY TAKEAWAYS ──────────────────────────────────────────
-// 1. Use 'extends' to make a class inherit from another
-// 2. Child classes get all parent properties and methods
-// 3. Child classes can add their own properties and methods
-// 4. Child classes can override parent methods
-// 5. Inheritance creates "is-a" relationships (Dog is an Animal)
-
-// ── NEXT STEP ──────────────────────────────────────────────
-// Now open Exercise_Inheritance.java and complete the exercises!

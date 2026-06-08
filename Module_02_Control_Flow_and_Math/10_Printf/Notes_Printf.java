@@ -23,35 +23,16 @@
  */
 
 public class Notes_Printf {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of Printf
-        
-        System.out.println("Learning: Printf");
-        System.out.println("Topic #10 in Module 2");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use Printf");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("Printf is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of Printf");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_Printf.java!");
+        String name = "Alex";
+        int score = 95;
+        double gpa = 3.85;
+
+        System.out.printf("Name: %s%n", name);
+        System.out.printf("Score: %d out of 100%n", score);
+        System.out.printf("GPA: %.2f%n", gpa);
+        System.out.printf("Result: %s, GPA: %.1f%%%n", "Passed", gpa);
+
+        System.out.println("Use printf when you want aligned and formatted output.");
     }
 }

@@ -16,29 +16,12 @@
  * ============================================================
  */
 
+
 public class Exercise_Variables {
     public static void main(String[] args) {
-
-        // ── EXERCISE 1 ⭐ ──────────────────────────────────────
-        // Task: Create variables for your name, age, and favorite food
-        // Expected output: Hello [name]! You are [age] years old and love [food].
-        // Your code here:
-        // TODO: Declare and assign String, int, and String variables
-
-        // ── EXERCISE 2 ⭐⭐ ────────────────────────────────────
-        // Task: Create variables for a product's name, price, and if it's on sale
-        // Expected output: The [product] costs $[price] and is on sale: [true/false]
-        // Your code here:
-        // TODO: Use String, double, and boolean types
-
-        // ── EXERCISE 3 ⭐⭐⭐ ──────────────────────────────────
-        // Task: Create a score variable, display it, then update and display again
-        // Expected output:
-        // Initial score: 75
-        // Updated score: 85
-        // Final score: 90
-        // Your code here:
-        // TODO: Declare, assign, reassign, and use in calculations
-
+        System.out.println("Exercises for 02 Variables.");
+        System.out.println("1) Implement the required functionality as described in the Notes for this topic.");
+        System.out.println("2) Follow the test specifications in the exercise comments and write modular code.");
+        System.out.println("3) HINT: Refer to the instructor solutions in the Solutions folder if you are stuck (instructors only).");
     }
 }

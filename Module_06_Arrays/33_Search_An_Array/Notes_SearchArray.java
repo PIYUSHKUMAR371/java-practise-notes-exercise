@@ -23,35 +23,22 @@
  */
 
 public class Notes_SearchArray {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of SearchArray
-        
-        System.out.println("Learning: SearchArray");
-        System.out.println("Topic #33 in Module 6");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use SearchArray");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("SearchArray is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of SearchArray");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_SearchArray.java!");
+        int[] numbers = {4, 8, 15, 16, 23, 42};
+        int target = 15;
+        int index = -1;
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == target) {
+                index = i;
+                break;
+            }
+        }
+
+        if (index >= 0) {
+            System.out.println("Found " + target + " at index " + index);
+        } else {
+            System.out.println(target + " not found.");
+        }
     }
 }

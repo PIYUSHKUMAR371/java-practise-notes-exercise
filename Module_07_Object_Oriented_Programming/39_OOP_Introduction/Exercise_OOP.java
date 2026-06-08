@@ -16,23 +16,12 @@
  * ============================================================
  */
 
-// ── EXERCISE 1 ⭐ ──────────────────────────────────────
-// Task: Create a simple Person class with name and age properties, and a greet method
-// Expected output: Hello, I'm John and I'm 25 years old!
-// Your code here:
-// TODO: Define class with instance variables and method, create object in main
 
-// ── EXERCISE 2 ⭐⭐ ────────────────────────────────────
-// Task: Create a Book class with title, author, and pages. Add a read method
-// Expected output: Reading "Java Basics" by Alice, 300 pages
-// Your code here:
-// TODO: Create class with properties and method
-
-// ── EXERCISE 3 ⭐⭐⭐ ──────────────────────────────────
-// Task: Create a BankAccount class with balance and methods to deposit/withdraw
-// Expected output:
-// Initial balance: $1000.00
-// After deposit $500: $1500.00
-// After withdraw $200: $1300.00
-// Your code here:
-// TODO: Include methods that modify the balance
+public class Exercise_OOP {
+    public static void main(String[] args) {
+        System.out.println("Exercises for 39 OOP Introduction.");
+        System.out.println("1) Implement the required functionality as described in the Notes for this topic.");
+        System.out.println("2) Follow the test specifications in the exercise comments and write modular code.");
+        System.out.println("3) HINT: Refer to the instructor solutions in the Solutions folder if you are stuck (instructors only).");
+    }
+}

@@ -23,35 +23,26 @@
  */
 
 public class Notes_Composition {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of Composition
-        
-        System.out.println("Learning: Composition");
-        System.out.println("Topic #54 in Module 7");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use Composition");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("Composition is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of Composition");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_Composition.java!");
+        Book book = new Book("Java Guide");
+        System.out.println(book.title + " has author " + book.author.name);
+    }
+
+    static class Author {
+        String name;
+
+        Author(String name) {
+            this.name = name;
+        }
+    }
+
+    static class Book {
+        String title;
+        Author author;
+
+        Book(String title) {
+            this.title = title;
+            this.author = new Author("BroCode");
+        }
     }
 }

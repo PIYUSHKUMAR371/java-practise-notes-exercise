@@ -22,36 +22,18 @@
  * ============================================================
  */
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Notes_HashMaps {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of HashMaps
-        
-        System.out.println("Learning: HashMaps");
-        System.out.println("Topic #67 in Module 9");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use HashMaps");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("HashMaps is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of HashMaps");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_HashMaps.java!");
+        Map<String, Integer> scores = new HashMap<>();
+        scores.put("Alice", 92);
+        scores.put("Bob", 85);
+
+        System.out.println("Alice's score: " + scores.get("Alice"));
+        for (String name : scores.keySet()) {
+            System.out.println(name + ": " + scores.get(name));
+        }
     }
 }

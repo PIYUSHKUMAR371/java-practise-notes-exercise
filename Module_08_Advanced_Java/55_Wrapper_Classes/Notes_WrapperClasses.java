@@ -23,35 +23,15 @@
  */
 
 public class Notes_WrapperClasses {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of WrapperClasses
-        
-        System.out.println("Learning: WrapperClasses");
-        System.out.println("Topic #55 in Module 8");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use WrapperClasses");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("WrapperClasses is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of WrapperClasses");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_WrapperClasses.java!");
+        Integer number = 10; // wrapper for int
+        Double price = 4.99; // wrapper for double
+
+        int sum = number + 5; // unboxing
+        System.out.println("Sum: " + sum);
+
+        String text = "123";
+        int parsed = Integer.parseInt(text);
+        System.out.println("Parsed int: " + parsed);
     }
 }

@@ -24,94 +24,21 @@
  * ============================================================
  */
 
-import java.util.Scanner; // Import the Scanner class for user input
+import java.util.Scanner;
 
 public class Notes_UserInput {
     public static void main(String[] args) {
+        // Scanner reads input from the user.
+        Scanner scanner = new Scanner(System.in);
 
-        // ── SECTION 1: WHAT IS SCANNER? ────────────────────────
-        // Scanner is a tool that reads user input from the console
-        // It's like a microphone that listens to what the user types
-        // We need to import java.util.Scanner at the top
-
-        Scanner scanner = new Scanner(System.in); // Create a Scanner object
-        // System.in means "read from the console/keyboard"
-
-        // ── SECTION 2: READING STRINGS ────────────────────────
-        // nextLine() reads a whole line of text including spaces
-
-        System.out.println("What is your name?"); // Ask the user
-        String name = scanner.nextLine(); // Wait for user to type and press Enter
-        System.out.println("Hello, " + name + "!"); // Use their input
-
-        // ── SECTION 3: READING NUMBERS ────────────────────────
-        // nextInt() reads whole numbers
-        // nextDouble() reads decimal numbers
-
-        System.out.println("How old are you?");
-        int age = scanner.nextInt(); // Read integer input
-        System.out.println("You are " + age + " years old!");
-
-        System.out.println("What is your GPA?");
-        double gpa = scanner.nextDouble(); // Read decimal input
-        System.out.println("Your GPA is " + gpa);
-
-        // ── SECTION 4: COMMON ISSUES ──────────────────────────
-        // Problem: Mixing nextInt()/nextDouble() with nextLine()
-        // Solution: Add scanner.nextLine() to consume the leftover newline
-
-        System.out.println("Enter your favorite number:");
-        int number = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
-
-        System.out.println("Enter your favorite color:");
-        String color = scanner.nextLine(); // Now this works!
-
-        System.out.println("Your favorite number is " + number);
-        System.out.println("Your favorite color is " + color);
-
-        // ── SECTION 5: PRACTICAL EXAMPLE ──────────────────────
-        // Let's build a simple profile collector
-
-        System.out.println("\n--- User Profile ---");
-
-        System.out.print("First name: ");
-        String firstName = scanner.nextLine();
-
-        System.out.print("Last name: ");
-        String lastName = scanner.nextLine();
-
-        System.out.print("Age: ");
+        System.out.print("Enter your name: ");
+        String userName = scanner.nextLine();
+        System.out.print("Enter your age: ");
         int userAge = scanner.nextInt();
 
-        System.out.print("Height in cm: ");
-        double height = scanner.nextDouble();
+        System.out.println("Hello, " + userName + "!");
+        System.out.println("You are " + userAge + " years old.");
 
-        System.out.print("Are you a student? (true/false): ");
-        boolean isStudent = scanner.nextBoolean();
-
-        // Display the collected information
-        System.out.println("\n--- Your Profile ---");
-        System.out.println("Name: " + firstName + " " + lastName);
-        System.out.println("Age: " + userAge);
-        System.out.println("Height: " + height + " cm");
-        System.out.println("Student: " + isStudent);
-
-        // ── SECTION 6: CLOSING THE SCANNER ────────────────────
-        // Always close the scanner when done to free up resources
-        scanner.close(); // Good practice!
-
-        System.out.println("Thank you for the information!");
+        scanner.close();
     }
 }
-
-// ── KEY TAKEAWAYS ──────────────────────────────────────────
-// 1. Use Scanner to read user input from console
-// 2. Import java.util.Scanner at the top
-// 3. Create scanner with: Scanner scanner = new Scanner(System.in);
-// 4. Use nextLine() for strings, nextInt() for integers, nextDouble() for decimals
-// 5. Watch out for newline issues when mixing input types
-// 6. Always close the scanner with scanner.close()
-
-// ── NEXT STEP ──────────────────────────────────────────────
-// Now open Exercise_UserInput.java and complete the exercises!

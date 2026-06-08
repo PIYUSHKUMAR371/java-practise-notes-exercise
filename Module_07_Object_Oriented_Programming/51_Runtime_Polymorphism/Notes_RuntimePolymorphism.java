@@ -23,35 +23,24 @@
  */
 
 public class Notes_RuntimePolymorphism {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of RuntimePolymorphism
-        
-        System.out.println("Learning: RuntimePolymorphism");
-        System.out.println("Topic #51 in Module 7");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use RuntimePolymorphism");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("RuntimePolymorphism is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of RuntimePolymorphism");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_RuntimePolymorphism.java!");
+        Shape shape = new Square(4);
+        System.out.println("Square area: " + shape.area());
+    }
+
+    static abstract class Shape {
+        abstract int area();
+    }
+
+    static class Square extends Shape {
+        int side;
+        Square(int side) {
+            this.side = side;
+        }
+
+        @Override
+        int area() {
+            return side * side;
+        }
     }
 }

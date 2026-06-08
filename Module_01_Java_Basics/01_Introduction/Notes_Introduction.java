@@ -25,56 +25,18 @@
  * ============================================================
  */
 
-// ── SECTION 1: WHAT IS JAVA? ─────────────────────────────
-// Java is a programming language created by James Gosling at Sun Microsystems
-// It's object-oriented, meaning we organize code like real-world objects
-// Java code gets compiled to bytecode that runs on any machine with JVM
+public class Notes_Introduction {
+    public static void main(String[] args) {
+        // This file introduces Java basics in a friendly way.
+        System.out.println("Welcome to Java basics!");
+        System.out.println("A Java program starts in the main() method.");
 
-// ── SECTION 2: YOUR FIRST JAVA PROGRAM ───────────────────
-// Every Java program needs a class (like a blueprint) and a main method (entry point)
-// The main method is where your program starts running
+        String greeting = "Hello, learner!"; // A String holds text
+        int year = 2026; // An int holds whole numbers
+        double version = 21.0; // A double holds decimal numbers
 
-public class Notes_Introduction { // This is our class - like a container for our code
-    public static void main(String[] args) { // This is the main method - program starts here
-        // System.out.println() prints text to the console (black screen)
-        System.out.println("Hello, World!"); // Prints "Hello, World!" and moves to next line
-        System.out.println("Welcome to Java programming!"); // Another message
-
-        // We can also print without moving to next line using print()
-        System.out.print("This is on the same line ");
-        System.out.println("as this text!");
-
-        // ── SECTION 3: BASIC SYNTAX ──────────────────────────
-        // Java statements end with semicolons ;
-        // Code is organized in blocks using curly braces { }
-        // Comments help explain what code does - like this one!
-
-        // Variables store data - we'll learn more in the next topic
-        String name = "Java Learner"; // String stores text
-        int year = 2024; // int stores whole numbers
-
-        System.out.println("Hello, " + name + "! It's " + year + ".");
-
-        // ── SECTION 4: WHY JAVA IS GREAT ─────────────────────
-        // 1. Platform independent - write once, run anywhere
-        // 2. Object-oriented - organizes code like real world
-        // 3. Secure - built-in security features
-        // 4. Rich libraries - tons of pre-built tools
-        // 5. Huge community - lots of help available
-
-        System.out.println("Java is:");
-        System.out.println("- Platform independent");
-        System.out.println("- Object-oriented");
-        System.out.println("- Secure and reliable");
-        System.out.println("- Used by millions worldwide");
+        System.out.println(greeting);
+        System.out.println("Java version: " + version + " in " + year);
+        System.out.println("Use comments to explain code to other people.");
     }
 }
-
-// ── KEY TAKEAWAYS ──────────────────────────────────────────
-// 1. Java programs need a class with a main method to run
-// 2. System.out.println() displays text to the user
-// 3. Code is organized in classes and methods
-// 4. Java is platform independent - runs on any computer
-
-// ── NEXT STEP ──────────────────────────────────────────────
-// Now open Exercise_Introduction.java and complete the exercises!

@@ -1,0 +1,228 @@
+﻿ M Module_01_Java_Basics/01_Introduction/Exercise_Introduction.java
+ M Module_01_Java_Basics/01_Introduction/Notes_Introduction.java
+ M Module_01_Java_Basics/02_Variables/Exercise_Variables.java
+ M Module_01_Java_Basics/02_Variables/Notes_Variables.java
+ M Module_01_Java_Basics/03_User_Input/Exercise_UserInput.java
+ M Module_01_Java_Basics/03_User_Input/Notes_UserInput.java
+ M Module_01_Java_Basics/05_Arithmetic/Exercise_Arithmetic.java
+ M Module_01_Java_Basics/05_Arithmetic/Notes_Arithmetic.java
+ M Module_02_Control_Flow_and_Math/07_If_Statements/Exercise_IfStatements.java
+ M Module_02_Control_Flow_and_Math/07_If_Statements/Notes_IfStatements.java
+ M Module_02_Control_Flow_and_Math/08_Random_Numbers/Exercise_RandomNumbers.java
+ M Module_02_Control_Flow_and_Math/08_Random_Numbers/Notes_RandomNumbers.java
+ M Module_02_Control_Flow_and_Math/09_Math_Class/Exercise_MathClass.java
+ M Module_02_Control_Flow_and_Math/09_Math_Class/Notes_MathClass.java
+ M Module_02_Control_Flow_and_Math/10_Printf/Exercise_Printf.java
+ M Module_02_Control_Flow_and_Math/10_Printf/Notes_Printf.java
+ M Module_02_Control_Flow_and_Math/12_Nested_If_Statements/Exercise_NestedIf.java
+ M Module_02_Control_Flow_and_Math/12_Nested_If_Statements/Notes_NestedIf.java
+ M Module_03_Strings_and_Operators/13_String_Methods/Exercise_StringMethods.java
+ M Module_03_Strings_and_Operators/13_String_Methods/Notes_StringMethods.java
+ M Module_03_Strings_and_Operators/14_Substrings/Exercise_Substrings.java
+ M Module_03_Strings_and_Operators/14_Substrings/Notes_Substrings.java
+ M Module_03_Strings_and_Operators/16_Ternary_Operator/Exercise_TernaryOperator.java
+ M Module_03_Strings_and_Operators/16_Ternary_Operator/Notes_TernaryOperator.java
+ M Module_03_Strings_and_Operators/18_Enhanced_Switches/Exercise_EnhancedSwitches.java
+ M Module_03_Strings_and_Operators/18_Enhanced_Switches/Notes_EnhancedSwitches.java
+ M Module_03_Strings_and_Operators/20_Logical_Operators/Exercise_LogicalOperators.java
+ M Module_03_Strings_and_Operators/20_Logical_Operators/Notes_LogicalOperators.java
+ M Module_04_Loops/21_While_Loops/Exercise_WhileLoops.java
+ M Module_04_Loops/21_While_Loops/Notes_WhileLoops.java
+ M Module_04_Loops/23_For_Loops/Exercise_ForLoops.java
+ M Module_04_Loops/23_For_Loops/Notes_ForLoops.java
+ M Module_04_Loops/24_Break_and_Continue/Exercise_BreakContinue.java
+ M Module_04_Loops/24_Break_and_Continue/Notes_BreakContinue.java
+ M Module_04_Loops/25_Nested_Loops/Exercise_NestedLoops.java
+ M Module_04_Loops/25_Nested_Loops/Notes_NestedLoops.java
+ M Module_05_Methods/26_Methods/Exercise_Methods.java
+ M Module_05_Methods/26_Methods/Notes_Methods.java
+ M Module_05_Methods/27_Overloaded_Methods/Exercise_OverloadedMethods.java
+ M Module_05_Methods/27_Overloaded_Methods/Notes_OverloadedMethods.java
+ M Module_05_Methods/28_Variable_Scope/Exercise_VariableScope.java
+ M Module_05_Methods/28_Variable_Scope/Notes_VariableScope.java
+ M Module_06_Arrays/31_Arrays/Exercise_Arrays.java
+ M Module_06_Arrays/31_Arrays/Notes_Arrays.java
+ M Module_06_Arrays/32_User_Input_Into_Array/Exercise_InputArray.java
+ M Module_06_Arrays/32_User_Input_Into_Array/Notes_InputArray.java
+ M Module_06_Arrays/33_Search_An_Array/Exercise_SearchArray.java
+ M Module_06_Arrays/33_Search_An_Array/Notes_SearchArray.java
+ M Module_06_Arrays/34_Varargs/Exercise_Varargs.java
+ M Module_06_Arrays/34_Varargs/Notes_Varargs.java
+ M Module_06_Arrays/35_2D_Arrays/Exercise_2DArrays.java
+ M Module_06_Arrays/35_2D_Arrays/Notes_2DArrays.java
+ M Module_07_Object_Oriented_Programming/39_OOP_Introduction/Exercise_OOP.java
+ M Module_07_Object_Oriented_Programming/39_OOP_Introduction/Notes_OOP.java
+ M Module_07_Object_Oriented_Programming/40_Constructors/Exercise_Constructors.java
+ M Module_07_Object_Oriented_Programming/40_Constructors/Notes_Constructors.java
+ M Module_07_Object_Oriented_Programming/41_Overloaded_Constructors/Exercise_OverloadedConstructors.java
+ M Module_07_Object_Oriented_Programming/41_Overloaded_Constructors/Notes_OverloadedConstructors.java
+ M Module_07_Object_Oriented_Programming/42_Array_of_Objects/Exercise_ArrayOfObjects.java
+ M Module_07_Object_Oriented_Programming/42_Array_of_Objects/Notes_ArrayOfObjects.java
+ M Module_07_Object_Oriented_Programming/43_Static/Exercise_Static.java
+ M Module_07_Object_Oriented_Programming/43_Static/Notes_Static.java
+ M Module_07_Object_Oriented_Programming/44_Inheritance/Exercise_Inheritance.java
+ M Module_07_Object_Oriented_Programming/44_Inheritance/Notes_Inheritance.java
+ M Module_07_Object_Oriented_Programming/45_Super/Exercise_Super.java
+ M Module_07_Object_Oriented_Programming/45_Super/Notes_Super.java
+ M Module_07_Object_Oriented_Programming/46_Method_Overriding/Exercise_MethodOverriding.java
+ M Module_07_Object_Oriented_Programming/46_Method_Overriding/Notes_MethodOverriding.java
+ M Module_07_Object_Oriented_Programming/47_ToString_Method/Exercise_ToString.java
+ M Module_07_Object_Oriented_Programming/47_ToString_Method/Notes_ToString.java
+ M Module_07_Object_Oriented_Programming/48_Abstraction/Exercise_Abstraction.java
+ M Module_07_Object_Oriented_Programming/48_Abstraction/Notes_Abstraction.java
+ M Module_07_Object_Oriented_Programming/49_Interfaces/Exercise_Interfaces.java
+ M Module_07_Object_Oriented_Programming/49_Interfaces/Notes_Interfaces.java
+ M Module_07_Object_Oriented_Programming/50_Polymorphism/Exercise_Polymorphism.java
+ M Module_07_Object_Oriented_Programming/50_Polymorphism/Notes_Polymorphism.java
+ M Module_07_Object_Oriented_Programming/51_Runtime_Polymorphism/Exercise_RuntimePolymorphism.java
+ M Module_07_Object_Oriented_Programming/51_Runtime_Polymorphism/Notes_RuntimePolymorphism.java
+ M Module_07_Object_Oriented_Programming/52_Getters_and_Setters/Exercise_GettersSetters.java
+ M Module_07_Object_Oriented_Programming/52_Getters_and_Setters/Notes_GettersSetters.java
+ M Module_07_Object_Oriented_Programming/53_Aggregation/Exercise_Aggregation.java
+ M Module_07_Object_Oriented_Programming/53_Aggregation/Notes_Aggregation.java
+ M Module_07_Object_Oriented_Programming/54_Composition/Exercise_Composition.java
+ M Module_07_Object_Oriented_Programming/54_Composition/Notes_Composition.java
+ M Module_08_Advanced_Java/55_Wrapper_Classes/Exercise_WrapperClasses.java
+ M Module_08_Advanced_Java/55_Wrapper_Classes/Notes_WrapperClasses.java
+ M Module_08_Advanced_Java/56_ArrayLists/Exercise_ArrayLists.java
+ M Module_08_Advanced_Java/56_ArrayLists/Notes_ArrayLists.java
+ M Module_08_Advanced_Java/57_Exception_Handling/Exercise_ExceptionHandling.java
+ M Module_08_Advanced_Java/57_Exception_Handling/Notes_ExceptionHandling.java
+ M Module_08_Advanced_Java/58_Write_Files/Exercise_WriteFiles.java
+ M Module_08_Advanced_Java/58_Write_Files/Notes_WriteFiles.java
+ M Module_08_Advanced_Java/59_Read_Files/Exercise_ReadFiles.java
+ M Module_08_Advanced_Java/59_Read_Files/Notes_ReadFiles.java
+ M Module_08_Advanced_Java/62_Dates_and_Times/Exercise_DatesAndTimes.java
+ M Module_08_Advanced_Java/62_Dates_and_Times/Notes_DatesAndTimes.java
+ M Module_08_Advanced_Java/63_Anonymous_Classes/Exercise_AnonymousClasses.java
+ M Module_08_Advanced_Java/63_Anonymous_Classes/Notes_AnonymousClasses.java
+ M Module_08_Advanced_Java/64_TimerTasks/Exercise_TimerTasks.java
+ M Module_08_Advanced_Java/64_TimerTasks/Notes_TimerTasks.java
+ M Module_09_Expert_Topics/66_Generics/Exercise_Generics.java
+ M Module_09_Expert_Topics/66_Generics/Notes_Generics.java
+ M Module_09_Expert_Topics/67_HashMaps/Exercise_HashMaps.java
+ M Module_09_Expert_Topics/67_HashMaps/Notes_HashMaps.java
+ M Module_09_Expert_Topics/68_Enums/Exercise_Enums.java
+ M Module_09_Expert_Topics/68_Enums/Notes_Enums.java
+ M Module_09_Expert_Topics/69_Threading/Exercise_Threading.java
+ M Module_09_Expert_Topics/69_Threading/Notes_Threading.java
+ M Module_09_Expert_Topics/70_Multithreading/Exercise_Multithreading.java
+ M Module_09_Expert_Topics/70_Multithreading/Notes_Multithreading.java
+?? Module_01_Java_Basics/01_Introduction/Exercise_Introduction.class
+?? Module_01_Java_Basics/01_Introduction/Notes_Introduction.class
+?? Module_01_Java_Basics/02_Variables/Exercise_Variables.class
+?? Module_01_Java_Basics/02_Variables/Notes_Variables.class
+?? Module_01_Java_Basics/03_User_Input/Exercise_UserInput.class
+?? Module_01_Java_Basics/03_User_Input/Notes_UserInput.class
+?? Module_01_Java_Basics/05_Arithmetic/Exercise_Arithmetic.class
+?? Module_01_Java_Basics/05_Arithmetic/Notes_Arithmetic.class
+?? Module_02_Control_Flow_and_Math/07_If_Statements/Exercise_IfStatements.class
+?? Module_02_Control_Flow_and_Math/07_If_Statements/Notes_IfStatements.class
+?? Module_02_Control_Flow_and_Math/08_Random_Numbers/Exercise_RandomNumbers.class
+?? Module_02_Control_Flow_and_Math/08_Random_Numbers/Notes_RandomNumbers.class
+?? Module_02_Control_Flow_and_Math/09_Math_Class/Exercise_MathClass.class
+?? Module_02_Control_Flow_and_Math/09_Math_Class/Notes_MathClass.class
+?? Module_02_Control_Flow_and_Math/10_Printf/Exercise_Printf.class
+?? Module_02_Control_Flow_and_Math/10_Printf/Notes_Printf.class
+?? Module_02_Control_Flow_and_Math/12_Nested_If_Statements/Exercise_NestedIf.class
+?? Module_02_Control_Flow_and_Math/12_Nested_If_Statements/Notes_NestedIf.class
+?? Module_03_Strings_and_Operators/13_String_Methods/Exercise_StringMethods.class
+?? Module_03_Strings_and_Operators/13_String_Methods/Notes_StringMethods.class
+?? Module_03_Strings_and_Operators/14_Substrings/Exercise_Substrings.class
+?? Module_03_Strings_and_Operators/14_Substrings/Notes_Substrings.class
+?? Module_03_Strings_and_Operators/16_Ternary_Operator/Exercise_TernaryOperator.class
+?? Module_03_Strings_and_Operators/16_Ternary_Operator/Notes_TernaryOperator.class
+?? Module_03_Strings_and_Operators/18_Enhanced_Switches/Exercise_EnhancedSwitches.class
+?? Module_03_Strings_and_Operators/18_Enhanced_Switches/Notes_EnhancedSwitches.class
+?? Module_03_Strings_and_Operators/20_Logical_Operators/Exercise_LogicalOperators.class
+?? Module_03_Strings_and_Operators/20_Logical_Operators/Notes_LogicalOperators.class
+?? Module_04_Loops/21_While_Loops/Exercise_WhileLoops.class
+?? Module_04_Loops/21_While_Loops/Notes_WhileLoops.class
+?? Module_04_Loops/23_For_Loops/Exercise_ForLoops.class
+?? Module_04_Loops/23_For_Loops/Notes_ForLoops.class
+?? Module_04_Loops/24_Break_and_Continue/Exercise_BreakContinue.class
+?? Module_04_Loops/24_Break_and_Continue/Notes_BreakContinue.class
+?? Module_04_Loops/25_Nested_Loops/Exercise_NestedLoops.class
+?? Module_04_Loops/25_Nested_Loops/Notes_NestedLoops.class
+?? Module_05_Methods/26_Methods/Exercise_Methods.class
+?? Module_05_Methods/26_Methods/Notes_Methods.class
+?? Module_05_Methods/27_Overloaded_Methods/Exercise_OverloadedMethods.class
+?? Module_05_Methods/27_Overloaded_Methods/Notes_OverloadedMethods.class
+?? Module_05_Methods/28_Variable_Scope/Exercise_VariableScope.class
+?? Module_05_Methods/28_Variable_Scope/Notes_VariableScope.class
+?? Module_06_Arrays/31_Arrays/Exercise_Arrays.class
+?? Module_06_Arrays/32_User_Input_Into_Array/Exercise_InputArray.class
+?? Module_06_Arrays/32_User_Input_Into_Array/Notes_InputArray.class
+?? Module_06_Arrays/33_Search_An_Array/Exercise_SearchArray.class
+?? Module_06_Arrays/33_Search_An_Array/Notes_SearchArray.class
+?? Module_06_Arrays/34_Varargs/Exercise_Varargs.class
+?? Module_06_Arrays/34_Varargs/Notes_Varargs.class
+?? Module_06_Arrays/35_2D_Arrays/Exercise_2DArrays.class
+?? Module_06_Arrays/35_2D_Arrays/Notes_2DArrays.class
+?? Module_07_Object_Oriented_Programming/39_OOP_Introduction/Exercise_OOP$BankAccount.class
+?? Module_07_Object_Oriented_Programming/39_OOP_Introduction/Exercise_OOP$Book.class
+?? Module_07_Object_Oriented_Programming/39_OOP_Introduction/Exercise_OOP$Person.class
+?? Module_07_Object_Oriented_Programming/39_OOP_Introduction/Exercise_OOP.class
+?? Module_07_Object_Oriented_Programming/39_OOP_Introduction/Notes_OOP.class
+?? Module_07_Object_Oriented_Programming/40_Constructors/Exercise_Constructors.class
+?? Module_07_Object_Oriented_Programming/40_Constructors/Notes_Constructors.class
+?? Module_07_Object_Oriented_Programming/41_Overloaded_Constructors/Exercise_OverloadedConstructors.class
+?? Module_07_Object_Oriented_Programming/42_Array_of_Objects/Exercise_ArrayOfObjects.class
+?? Module_07_Object_Oriented_Programming/43_Static/Exercise_Static.class
+?? Module_07_Object_Oriented_Programming/43_Static/Notes_Static.class
+?? Module_07_Object_Oriented_Programming/44_Inheritance/Animal.class
+?? Module_07_Object_Oriented_Programming/44_Inheritance/Cat.class
+?? Module_07_Object_Oriented_Programming/44_Inheritance/Dog.class
+?? Module_07_Object_Oriented_Programming/44_Inheritance/Exercise_Inheritance.class
+?? Module_07_Object_Oriented_Programming/44_Inheritance/Notes_Inheritance.class
+?? Module_07_Object_Oriented_Programming/45_Super/Exercise_Super.class
+?? Module_07_Object_Oriented_Programming/46_Method_Overriding/Boat.class
+?? Module_07_Object_Oriented_Programming/46_Method_Overriding/Car.class
+?? Module_07_Object_Oriented_Programming/46_Method_Overriding/Exercise_MethodOverriding.class
+?? Module_07_Object_Oriented_Programming/46_Method_Overriding/Notes_MethodOverriding.class
+?? Module_07_Object_Oriented_Programming/46_Method_Overriding/Vehicle.class
+?? Module_07_Object_Oriented_Programming/47_ToString_Method/Exercise_ToString.class
+?? Module_07_Object_Oriented_Programming/48_Abstraction/Exercise_Abstraction.class
+?? Module_07_Object_Oriented_Programming/49_Interfaces/Exercise_Interfaces.class
+?? Module_07_Object_Oriented_Programming/50_Polymorphism/Exercise_Polymorphism.class
+?? Module_07_Object_Oriented_Programming/51_Runtime_Polymorphism/Exercise_RuntimePolymorphism.class
+?? Module_07_Object_Oriented_Programming/52_Getters_and_Setters/Exercise_GettersSetters.class
+?? Module_07_Object_Oriented_Programming/53_Aggregation/Exercise_Aggregation.class
+?? Module_07_Object_Oriented_Programming/54_Composition/Exercise_Composition.class
+?? Module_08_Advanced_Java/55_Wrapper_Classes/Exercise_WrapperClasses.class
+?? Module_08_Advanced_Java/55_Wrapper_Classes/Notes_WrapperClasses.class
+?? Module_08_Advanced_Java/56_ArrayLists/Exercise_ArrayLists.class
+?? Module_08_Advanced_Java/56_ArrayLists/Notes_ArrayLists.class
+?? Module_08_Advanced_Java/57_Exception_Handling/Exercise_ExceptionHandling.class
+?? Module_08_Advanced_Java/57_Exception_Handling/Notes_ExceptionHandling.class
+?? Module_08_Advanced_Java/58_Write_Files/Exercise_WriteFiles.class
+?? Module_08_Advanced_Java/58_Write_Files/Notes_WriteFiles.class
+?? Module_08_Advanced_Java/59_Read_Files/Exercise_ReadFiles.class
+?? Module_08_Advanced_Java/59_Read_Files/Notes_ReadFiles.class
+?? Module_08_Advanced_Java/62_Dates_and_Times/Exercise_DatesAndTimes.class
+?? Module_08_Advanced_Java/62_Dates_and_Times/Notes_DatesAndTimes.class
+?? Module_08_Advanced_Java/63_Anonymous_Classes/Exercise_AnonymousClasses.class
+?? Module_08_Advanced_Java/64_TimerTasks/Exercise_TimerTasks.class
+?? Module_09_Expert_Topics/66_Generics/Exercise_Generics.class
+?? Module_09_Expert_Topics/67_HashMaps/Exercise_HashMaps.class
+?? Module_09_Expert_Topics/67_HashMaps/Notes_HashMaps.class
+?? Module_09_Expert_Topics/68_Enums/Exercise_Enums.class
+?? Module_09_Expert_Topics/68_Enums/Notes_Enums$Day.class
+?? Module_09_Expert_Topics/68_Enums/Notes_Enums.class
+?? Module_09_Expert_Topics/69_Threading/Exercise_Threading.class
+?? Module_09_Expert_Topics/70_Multithreading/Exercise_Multithreading.class
+?? Solutions/
+?? check_actual_placeholders.py
+?? check_duplicate_solutions.py
+?? check_placeholders.py
+?? complete_notes_exercises.py
+?? complete_remaining_exercises.py
+?? dedupe_solutions.py
+?? fix_brace_prints.py
+?? fix_main_braces.py
+?? git-status.txt
+?? normalize_notes_structure.py
+?? repair_notes.py
+?? repair_notes2.py
+?? repair_notes_syntax.py
+?? transform_exercises_to_solutions.py

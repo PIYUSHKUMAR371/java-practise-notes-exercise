@@ -23,35 +23,24 @@
  */
 
 public class Notes_ArrayOfObjects {
-    
     public static void main(String[] args) {
-        
-        // ── SECTION 1: BASIC CONCEPT ────────────────────────────
-        // This section introduces the core idea of ArrayOfObjects
-        
-        System.out.println("Learning: ArrayOfObjects");
-        System.out.println("Topic #42 in Module 7");
-        
-        // ── SECTION 2: EXAMPLE USAGE ────────────────────────────
-        // Here we show practical examples you'll use
-        
-        System.out.println("\nBasic Example:");
-        System.out.println("This demonstrates how to use ArrayOfObjects");
-        
-        // ── SECTION 3: REAL WORLD APPLICATION ───────────────────
-        // See how this concept is used in real programs
-        
-        System.out.println("\nReal World Use:");
-        System.out.println("ArrayOfObjects is used when building actual applications");
-        
-        // ── KEY TAKEAWAYS ───────────────────────────────────────
-        System.out.println("\n=== WHAT YOU LEARNED ===");
-        System.out.println("1. Main concept of ArrayOfObjects");
-        System.out.println("2. Basic syntax and usage");
-        System.out.println("3. Why it matters in Java");
-        System.out.println("4. Common patterns with this concept");
-        
-        // ── NEXT STEP ───────────────────────────────────────────
-        System.out.println("\n✓ Ready? Go to Exercise_ArrayOfObjects.java!");
+        Person[] people = {
+            new Person("Asha", 28),
+            new Person("Leo", 32)
+        };
+
+        for (Person person : people) {
+            System.out.println(person.name + " is " + person.age + " years old.");
+        }
+    }
+
+    static class Person {
+        String name;
+        int age;
+
+        Person(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
     }
 }
