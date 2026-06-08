@@ -22,6 +22,8 @@
  * ============================================================
  */
 
+import java.util.Scanner;
+
 public class Notes_InputArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

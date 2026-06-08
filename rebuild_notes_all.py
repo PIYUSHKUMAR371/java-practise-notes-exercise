@@ -5,9 +5,10 @@ notes_files = sorted(root.rglob('**/Notes_*.java'))
 
 def build_content(topic):
     imports = ''
-    if topic in ['UserInput', 'RandomNumbers', 'ArrayLists', 'WriteFiles', 'ReadFiles', 'TimerTasks', 'DatesAndTimes', 'HashMaps']:
+    if topic in ['UserInput', 'InputArray', 'RandomNumbers', 'ArrayLists', 'WriteFiles', 'ReadFiles', 'TimerTasks', 'DatesAndTimes', 'HashMaps']:
         imports_map = {
             'UserInput': 'import java.util.Scanner;',
+            'InputArray': 'import java.util.Scanner;',
             'RandomNumbers': 'import java.util.Random;',
             'ArrayLists': 'import java.util.ArrayList;\nimport java.util.List;',
             'WriteFiles': 'import java.io.FileWriter;\nimport java.io.IOException;',
@@ -769,8 +770,8 @@ def build_content(topic):
         body = '''    public static void main(String[] args) {
         String filename = "notes_example.txt";
         try (FileWriter writer = new FileWriter(filename)) {
-            writer.write("Java notes file example.\n");
-            writer.write("Write files using FileWriter and try-with-resources.\n");
+            writer.write("Java notes file example.\\n");
+            writer.write("Write files using FileWriter and try-with-resources.\\n");
             System.out.println("File written: " + filename);
         } catch (IOException e) {
             System.out.println("Error writing file: " + e.getMessage());

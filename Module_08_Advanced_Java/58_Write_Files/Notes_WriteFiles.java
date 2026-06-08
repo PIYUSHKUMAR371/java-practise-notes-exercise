@@ -29,10 +29,8 @@ public class Notes_WriteFiles {
     public static void main(String[] args) {
         String filename = "notes_example.txt";
         try (FileWriter writer = new FileWriter(filename)) {
-            writer.write("Java notes file example.
-");
-            writer.write("Write files using FileWriter and try-with-resources.
-");
+            writer.write("Java notes file example.\n");
+            writer.write("Write files using FileWriter and try-with-resources.\n");
             System.out.println("File written: " + filename);
         } catch (IOException e) {
             System.out.println("Error writing file: " + e.getMessage());
